@@ -49,9 +49,9 @@ public class ProductResourceTest {
         assertEquals(1, responseMsg.getSupplierId());
     }
 
-    @Test
-    public void testGetallProducts() {
-        List<Product> products = target.path("product").request().get(List.class);
-        assertEquals(77, products.size());
-    }
+//    @Test
+//    public void testGetallProducts() {
+//        List<Product> products = target.path("product").request().get(List.class);
+//        assertEquals(77, products.size());
+//    }
 }

@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 import java.util.List;
 
 /**
- * Root resource (exposed at "myresource" path)
+ * Root resource (exposed at "product" path)
  */
 @Path("/product")
 @Produces(MediaType.APPLICATION_JSON)
