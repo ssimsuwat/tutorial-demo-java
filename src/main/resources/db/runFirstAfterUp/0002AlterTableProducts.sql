@@ -1,0 +1,1 @@
+alter table Products add "Description" NCHAR(100);
