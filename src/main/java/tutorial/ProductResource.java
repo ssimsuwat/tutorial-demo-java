@@ -29,12 +29,5 @@ public class ProductResource {
     @Path("/{product}")
     public Product getProduct(@PathParam("product") String product) {
         return ProductManager.getInstance().getProduct(product);
-//        return new Product("aaa", "message", "google");
     }
-
-/*    @DELETE
-    @Path("/{product}")
-    public String deleteProduct(@PathParam("product") String product){
-        return ProductManager.getInstance().deleteProduct(new Product(product, "", ""));
-    }*/
 }
