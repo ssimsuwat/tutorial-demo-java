@@ -1,0 +1,1 @@
+alert table city add region nchar(50);
