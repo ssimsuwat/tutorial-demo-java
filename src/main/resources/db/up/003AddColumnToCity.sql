@@ -1,1 +1,1 @@
-alert table city add region nchar(50);
+alter table city add region nchar(50);
