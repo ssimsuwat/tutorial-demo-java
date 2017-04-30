@@ -1,7 +1,7 @@
 @echo off
 SET DIR=%~d0%~p0%
 
-SET connstring="data source=TUTORIAL\TUTORIAL;initial catalog=Northwind;user=sa;password=Yukon900"
+SET connstring="data source=initial catalog=Northwind;integrated security=True"
 SET repository.path="https://github.com/ssimsuwat/tutorial-demo-java.git"
 SET version.file="..\..\..\..\pom.xml"
 SET version.xpath="//project/version"
