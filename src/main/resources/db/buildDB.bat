@@ -6,4 +6,4 @@ SET repository.path="https://github.com/espiderinc/tutorial-demo-java.git"
 SET version.file="..\..\..\..\pom.xml"
 SET version.xpath="//project/version"
 
-"D:\workspace\screencast\download\RoundhousE\console\rh.exe" /vf=%version.file% /vx=%version.xpath% /c=%connstring% /r=%repository.path% /env=LOCAL /ni /simple
+"C:\Workspace\roundhouse\build_output\RoundhousE\_PublishedApplications\roundhouse.console\rh.exe" /vf=%version.file% /vx=%version.xpath% /c=%connstring% /r=%repository.path% /env=LOCAL /ni /simple
