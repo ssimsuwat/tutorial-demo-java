@@ -53,7 +53,6 @@ public class ProductResourceTest {
     @Test
     public void testGetallProducts() {
         List<Product> products = target.path("product").request().get(List.class);
-        assertEquals(99, products.size());
-        //assertEquals(77, products.size());
+       assertEquals(77, products.size());
     }
 }
